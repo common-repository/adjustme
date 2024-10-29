@@ -1,0 +1,46 @@
+/*
+ * Adjustme admin backend CSS.
+ * This will only load for admin panel pages where user is_admin()
+ */
+
+@import '../../../variables';
+
+body{
+
+  #adjustme_settings{
+
+    .adjustme_settings_box{
+      background: white;
+      padding: 2em;
+      width: 95%;
+      max-width: 500px;
+      margin: 0 auto;
+
+      .notice{
+        display:none;
+      }
+      h1{
+        padding:0;
+      }
+      p{
+
+      }
+      input[type=email]{
+        width:100%;
+        font-size: 1.3em;
+        padding: 0.5em;
+      }
+      .submit{
+        text-align: right;
+        padding: 0;
+        margin: 5px 0 0;
+        .button{
+          padding: 0.5em 2em;
+          height: auto;
+        }
+      }
+    }
+
+  }
+
+}

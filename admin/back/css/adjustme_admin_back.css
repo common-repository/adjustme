@@ -1,0 +1,27 @@
+/*
+ * Adjustme admin backend CSS.
+ * This will only load for admin panel pages where user is_admin()
+ */
+body #adjustme_settings .adjustme_settings_box {
+  background: white;
+  padding: 2em;
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto; }
+  body #adjustme_settings .adjustme_settings_box .notice {
+    display: none; }
+  body #adjustme_settings .adjustme_settings_box h1 {
+    padding: 0; }
+  body #adjustme_settings .adjustme_settings_box input[type=email] {
+    width: 100%;
+    font-size: 1.3em;
+    padding: 0.5em; }
+  body #adjustme_settings .adjustme_settings_box .submit {
+    text-align: right;
+    padding: 0;
+    margin: 5px 0 0; }
+    body #adjustme_settings .adjustme_settings_box .submit .button {
+      padding: 0.5em 2em;
+      height: auto; }
+
+/*# sourceMappingURL=adjustme_admin_back.css.map */
